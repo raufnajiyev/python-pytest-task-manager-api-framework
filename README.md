@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project is a beginner-friendly API automation testing framework built with **Python**, **Pytest**, and the **Requests** library.
+This project is an API automation testing framework built with **Python**, **Pytest**, and the **Requests** library.
 
 It tests a public task-management style API using realistic CRUD scenarios and negative validations.
 
-The framework is designed as a portfolio project to demonstrate practical **Automation QA** skills in API testing.
+The framework was created as a portfolio project to demonstrate practical **Automation QA** skills in API testing.
 
 It includes:
 - reusable API routes
@@ -25,7 +25,7 @@ https://dummyjson.com/docs/todos
 This public mock API was used to simulate a task manager backend for portfolio practice.
 
 **Important note:**  
-This API is a mock API. Some create, update, and delete actions are simulated and may not permanently persist changes on the server.
+This API is a mock API. Some create, update, and delete operations are simulated and may not permanently persist changes on the server.
 
 ---
 
@@ -56,6 +56,7 @@ This API is a mock API. Some create, update, and delete actions are simulated an
     tests/
     data/
     utils/
+    screenshots/
     README.md
     requirements.txt
     pytest.ini
@@ -161,6 +162,18 @@ Run tests and save Allure result files:
 Open the Allure report in browser:
 
     allure serve allure-results
+
+---
+
+## Screenshots
+
+### Pytest Test Run
+
+![Pytest Test Run](screenshots/test-run.png)
+
+### Allure Report Overview
+
+![Allure Report Overview](screenshots/allure-overview.png)
 
 ---
 
