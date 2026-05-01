@@ -1,5 +1,8 @@
 # Python Pytest Task Manager API Automation Framework
 
+[![API Tests](https://github.com/raufnajiyev/python-pytest-task-manager-api-framework/actions/workflows/api-tests.yml/badge.svg?branch=main)](https://github.com/raufnajiyev/python-pytest-task-manager-api-framework/actions/workflows/api-tests.yml)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
 ## Project Overview
 
 This project is an API automation testing framework built with **Python**, **Pytest**, and the **Requests** library.
